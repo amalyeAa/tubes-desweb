@@ -4,6 +4,7 @@ import AboutPage from "@/pages/AboutPage.vue";
 import ServicePage from "@/pages/ServicePage.vue";
 import GalleryPage from "@/pages/GalleryPage.vue";
 import ContactPage from "@/pages/ContactPage.vue";
+import cotsPage from "@/pages/cotsPage.vue";
 
 const routes = [
     {
@@ -30,6 +31,11 @@ const routes = [
         path: "/contact",
         name: ContactPage,
         component: ContactPage,
+    },
+    {
+        path: "/cots",
+        name: cotsPage,
+        component: cotsPage,
     },
 ]
 

@@ -58,6 +58,15 @@
             Contact
           </router-link>
         </li>
+        <li class="flex">
+          <router-link 
+            to="/cots" 
+            class="flex items-center px-4"
+            active-class="text-[#4D6A46] border-b-2 border-[#4D6A46]"
+          >
+            About Me
+          </router-link>
+        </li>
       </ul>
 
       <!-- Menu untuk ukuran tablet -->
@@ -110,6 +119,15 @@
             active-class="text-[#4D6A46] border-b-2 border-[#4D6A46]"
           >
             Contact
+          </router-link>
+        </li>
+        <li class="flex">
+          <router-link 
+            to="/cots" 
+            class="flex items-center px-4"
+            active-class="text-[#4D6A46] border-b-2 border-[#4D6A46]"
+          >
+            About Me
           </router-link>
         </li>
       </ul>
@@ -209,6 +227,17 @@
             active-class="text-green-900 bg-green-50 dark:bg-green-100"
           >
             Contact
+          </router-link>
+        </li>
+        
+        <li>
+          <router-link 
+            to="/cots" 
+            @click="isMenuOpen = false"
+            class="flex items-center px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-200"
+            active-class="text-green-900 bg-green-50 dark:bg-green-100"
+          >
+            About Me
           </router-link>
         </li>
       </ul>
