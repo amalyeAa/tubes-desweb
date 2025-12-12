@@ -1,14 +1,15 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue';
-import Hero from '@/components/Hero.vue';
-import Overview from '@/components/Overview.vue';
+import HeroGallery from '@/components/HeroGallery.vue';
+import Gallery from '@/components/Gallery.vue';
 import Footer from '@/components/Footer.vue';
+
 
 </script>
 
 <template>
   <Navbar/>
-  <Hero/>
-  <Overview/>
+  <HeroGallery/>
+  <Gallery/>
   <Footer/>
 </template>

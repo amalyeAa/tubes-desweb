@@ -1,12 +1,15 @@
 <template>
-    <section class="dark:bg-white-900 dark:text-white-800">
-	<div class="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
-		<h1 class="text-4xl font-bold leading-none sm:text-5xl">Laundry Makes Your Day Easier
-		</h1>
-		<p class="px-8 mt-8 mb-12 text-lg">Effortless laundry, fresh clothes- delivered to your door.
-Ready for simplify your life?</p>
-		<div class="flex flex-wrap justify-center">
-		</div>
-	</div>
-</section>
+	<div class="relative bg-linear-to-r from-white to-white h-screen text-black overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="https://i.pinimg.com/1200x/d4/aa/c8/d4aac82b98e1fe3a2408601cae9ced59.jpg" alt="Background Image" class="object-cover object-center w-full h-full" />
+    <div class="absolute inset-0 bg-white opacity-50"></div>
+  </div>
+  <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+    <h1 class="text-5xl font-bold leading-tight mb-4">Laundry 
+      <span class="text-[#4D6A46]">Makes</span>Your Day 
+      <span class="text-[#4D6A46]">Easier</span>
+    </h1>
+    <p class="text-lg text-black mb-8">Effortless laundry, fresh clothes- delivered to your door.Ready for simplify your life?.</p>
+  </div>
+</div>
 </template>
